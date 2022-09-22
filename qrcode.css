@@ -1,0 +1,42 @@
+body {
+    display: grid;
+    background-color:  hsl(212, 45%, 89%);
+}
+
+div {
+    height: 53vh;
+    width: 240px;
+    display: grid;
+    grid-template-rows: 60% 20% 20%;
+    align-self: center;
+    justify-self: center;
+    background-color: white;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+img {
+    height: 240px;
+    width: 100%;
+    justify-self: center;
+    border-radius: 8px;
+}
+
+
+.bold {
+    text-align: center;
+    margin: 20px 0px 0px 0px;
+    font-family: 'Outfit', serif;
+    font-weight: 700;
+    font-size: 19px;
+    color: hsl(218, 44%, 22%);
+}
+
+.smol {
+    text-align: center;
+    font-family: 'Outfit', serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: hsl(220, 15%, 55%);
+    margin: 0px 0px 10px 0px;
+}
